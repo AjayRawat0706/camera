@@ -21,7 +21,7 @@ export class AppComponent {
     return this.trigger.asObservable();
   }
   checkPermission=()=>{
-    navigator.mediaDevices.getUserMedia({video:{width:500,height:500}}).then((response)=>{
+    navigator.mediaDevices.getUserMedia({video:{width:200,height:200}}).then((response)=>{
       this.permissionStatus='Allowed';
       this.camData=response;
       console.log(this.camData);
