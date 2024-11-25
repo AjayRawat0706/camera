@@ -1,3 +1,16 @@
+<!-- <div>
+  <button (click)="checkPermission()">Check Permission</button>
+</div>
+
+<div *ngIf="camData">
+  <webcam [trigger]="$trigger" (imageCapture)="capture($event)" [width]="320" [height]="320"></webcam>
+  <button (click)="captureImage()">Click</button>
+</div>
+
+<div *ngIf="capturedImage">
+  <img [src]="capturedImage" alt="Captured Image">
+</div> -->
+
 <div>
   <button (click)="checkPermission()">Check Permission</button>
 </div>
@@ -9,4 +22,6 @@
 
 <div *ngIf="capturedImage">
   <img [src]="capturedImage" alt="Captured Image">
+  <button (click)="downloadImage()">Download</button>
 </div>
+
