@@ -17,7 +17,7 @@
 
 <div *ngIf="camData">
   <!-- Set the webcam preview to be square with 640x640 size -->
-  <webcam [trigger]="$trigger" (imageCapture)="capture($event)" [width]="640" [height]="640"></webcam>
+  <webcam [trigger]="$trigger" (imageCapture)="capture($event)"  ></webcam>
   <button (click)="captureImage()">Click</button>
 </div>
 
