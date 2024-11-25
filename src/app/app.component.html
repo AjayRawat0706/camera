@@ -15,7 +15,7 @@
   <button (click)="checkPermission()">Check Permission</button>
 </div>
 
-<div *ngIf="camData">
+<div *ngIf="camData" style="height: 400px;">
   <!-- Set the webcam preview to be square with 640x640 size -->
   <webcam [trigger]="$trigger" (imageCapture)="capture($event)"  ></webcam>
   <button (click)="captureImage()">Click</button>
