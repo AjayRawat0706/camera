@@ -5,7 +5,7 @@ img {
   }
   
   webcam {
-    width: 250px;
-    height: 250px; /* Ensure webcam feed is square */
+    width: 700px;
+    height: 700px; /* Ensure webcam feed is square */
   }
   
