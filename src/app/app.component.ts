@@ -23,7 +23,7 @@ export class AppComponent {
   }
 
   checkPermission = () => {
-    navigator.mediaDevices.getUserMedia({ video: { width: 200, height: 200 } }).then((response) => {
+    navigator.mediaDevices.getUserMedia({ video: { width: 640, height: 640 } }).then((response) => {
       this.permissionStatus = 'Allowed';
       this.camData = response;
       console.log(this.camData);

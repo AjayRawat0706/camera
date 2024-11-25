@@ -1,7 +1,11 @@
-
 img {
     width: 200px;
     height: 200px;
     object-fit: cover; /* Ensures the image fits the box without distortion */
+  }
+  
+  webcam {
+    width: 320px;
+    height: 320px; /* Ensure webcam feed is square */
   }
   
